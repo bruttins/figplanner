@@ -12,7 +12,7 @@ class TestRotationStructure(unittest.TestCase):
         trainees = [round_data["trainee"] for round_data in result_4]
         self.assertEqual(len(set(trainees)), 4)
         self.assertEqual(set(trainees), set(names_4))
-    
+ 
     def test_rotation_5_names(self):
         names_5 = ["Alice", "Bob", "Charlie", "Diana", "Eve"]
         result_5 = create_rotation_table(names_5)

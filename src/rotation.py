@@ -6,28 +6,37 @@ def create_rotation_table(names):
 	elif num_participants > 7:
 		raise ValueError("If you have 8 or more participants, please split up in groups of 4-7 participants.")
 
-	rounds = []
-
 	if num_participants == 4:
-		rounds = create_rotation_4(names)
+		return create_rotation_4(names)
 	else:
-		rounds = create_rotation_with_idle(names)
+		return create_rotation_with_idle(names)
 
-	return rounds
+def create_round(fig1, fig2, obs, trainee):
+	return {
+		"fig1": fig1,
+		"fig2": fig2,
+		"observer": obs,
+		"trainee": trainee,
+		}
 
 def create_rotation_4(names):
-	"""helper function for 4
-	1. create variables for each role (indices 0-3 of names)
-	2. create first round-dict and append to rounds
-	3. loop over names-list (starting with index1, since first round is already done)
+	rounds = []
+
+	current_helper1 = names[0]
+	current_helper2 = names[1]
+	current_observer = names[2]
+	current_trainee = names[3]
+
+	rounds.append(create_round(current_helper1, current_helper2, current_observer, current_trainee))
+	
+	for i in range(1, len(names)):
 		store_h1 = current_helper1
 		current_helper1 = current_helper2
-		current_helper2 = observer
-		observer = trainee
-		trainee = store_h1
-	4. create new_round-dict with current-variables
-	5. append new_round to rounds
-	"""
+		current_helper2 = current_observer
+		current_observer = current_trainee
+		current_trainee = store_h1
+		rounds.append(create_round(current_helper1, current_helper2, current_observer, current_trainee))
+	return rounds
 
 def create_rotation_with_idle(names):
 	"""helper function for 5-7

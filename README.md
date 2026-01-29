@@ -4,12 +4,12 @@ Also for practice-reasons, the programming is done without the help of AI. The o
 And again, you guessed it, for practice-reasons, I made a detailed outline of the Versionhistory, the SDLC and the requirements (see below).
 
 # Version History
-(Waiting: Version 1.0: Main function implemented, tested all moduleintegration --> MVP accomplished)
-(WIP: Version 0.5: User-input function implemented and tested)
-Version 0.4: Display function implemented and tested
-Verison 0.3: Rotation logic for 5-7 people implemented and tested --> Core functionality secure
-Version 0.2: Rotation logic for 4 people implemented and tested
-Version 0.1: Set-up repo, main structure, first Tests for Rotation
+- (Waiting: Version 1.0: Main function implemented, tested all moduleintegration --> MVP accomplished)
+- (WIP: Version 0.5: User-input function implemented and tested)
+- Version 0.4: Display function implemented and tested
+- Verison 0.3: Rotation logic for 5-7 people implemented and tested --> Core functionality secure
+- Version 0.2: Rotation logic for 4 people implemented and tested
+- Version 0.1: Set-up repo, main structure, first Tests for Rotation
 
 # SDLC
 ## Iteration 1: Create MVP (Version 0.1-1.0)

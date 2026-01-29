@@ -1,4 +1,3 @@
-# figplanner
 Figplanner helps make a plan for training searchdogs (Sanitätshundetraining) by scheduleing the helpers (Figuranten) and trainees in a manner that minimizes waiting times (for the dogs in cars as well as for the trainees and helpers).
 It is a project to practice software development and testing and the codebase is very small and only CLI, at least at the beginning. So is tool-support a little overkill? Definitely. But for practice-reasons, it's worth it.
 Also for practice-reasons, the programming is done without the help of AI. The only exception is rubberducking while designing the software, during which the chatbot is forbidden to provide any code.

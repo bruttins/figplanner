@@ -13,7 +13,7 @@ def process_names(namesstring):
     
 def prompt_participants():
     while True:
-        namesstring = input(("Please enter the names of 4-7 participants and separate them by comma: "))
+        namesstring = input(("Please enter the names of 4-7 participants (the human ones) and separate them by comma:\n"))
         try:
             names = process_names(namesstring)
             random.shuffle(names)

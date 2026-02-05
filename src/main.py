@@ -1,10 +1,12 @@
 from rotation import create_rotation_table
-from participants import #promptfunction
+from participants import prompt_participants
+from display import display_schedule
 
 def main():
-	#1. Welcome-Message
-	#2. Call participants-prompt-function
-	#3. Call plannerfunction according to 2.
+	print("Welcome to figplanner where we create an automated and time effective training rotation for your rescue dog training.")
+	names = prompt_participants()
+	rounds = create_rotation_table(names)
+	display_schedule(rounds, names)
 
-if __name == "__main__":
+if __name__ == "__main__":
 	main()

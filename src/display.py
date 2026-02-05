@@ -3,7 +3,7 @@ def display_schedule(rounds, names):
     print("TRAININGSPLAN")
     print("=" * 80)
 
-    max_width = 10
+    max_width = 13
     for name in names:
         if len(name) > max_width:
             max_width = len(name) + 1

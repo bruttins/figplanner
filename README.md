@@ -4,7 +4,7 @@ Also for practice-reasons, the programming is done without the help of AI. The o
 And again, you guessed it, for practice-reasons, I made a detailed outline of the Versionhistory, the SDLC and the requirements (see below).
 
 # Version History
-- (WIP: Version 1.0: Main function implemented, tested all moduleintegration --> MVP accomplished)
+- Version 1.0: Main function implemented, tested moduleintegration --> MVP accomplished
 - Version 0.5: User-input function implemented and tested
 - Version 0.4: Display function implemented and tested
 - Verison 0.3: Rotation logic for 5-7 people implemented and tested --> Core functionality secure
@@ -12,7 +12,7 @@ And again, you guessed it, for practice-reasons, I made a detailed outline of th
 - Version 0.1: Set-up repo, main structure, first Tests for Rotation
 
 # SDLC
-## Iteration 1: Create MVP (Version 0.1-1.0)
+## Iteration 1: Create MVP (complete)
 - Secure basic functionality and code architecture
 - Focus on unit- and integrationtesting, manual testing for endresult
 - Cover only simplest edgecases
@@ -33,7 +33,7 @@ And again, you guessed it, for practice-reasons, I made a detailed outline of th
 - optional, yet to be assessed
 
 # Requirements
-## Iteration 1:
+## Iteration 1 (all implemented):
 - CLI-based tool to automatically create a training-rotation for training searchdogs
 - User-input is a list of names
   - The names should be entered all at once, separated by commas

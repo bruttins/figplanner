@@ -18,7 +18,7 @@ And again, you guessed it, for practice-reasons, I made a detailed outline of th
 - Cover only simplest edgecases
 - TDD
 
-## Iteration 2: Optimize functionality (Version 1.1-1.5)
+## Iteration 2: Optimize functionality (Version 1.1-1.5) SUSPENDED
 - Optimize functionality (rotation logic)
 - Focus on end-to-end- and regression-testing (using tools)
 - BDD
